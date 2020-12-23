@@ -1,0 +1,23 @@
+{
+  "name": "full_stack_react_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sql.js": "^1.4.0",
+    "sqlite": "^4.0.18"
+  },
+  "devDependencies": {
+    "@types/sql.js": "^1.0.3",
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "node start-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
