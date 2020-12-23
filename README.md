@@ -16,3 +16,5 @@ Finally, run:
 ```
 npm start
 ```
+
+The Webpack dev server is now running on port 3000 and will proxy requests to the Node.js server which is running on port 3001.
